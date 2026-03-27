@@ -6,7 +6,7 @@ This project is designed to help you practice structuring content, styling layou
 
 ---
 
-## 🚀 Project Overview
+## Project Overview
 
 You will create a **virtual resume landing page** that highlights:
 
@@ -71,7 +71,7 @@ Include relevant experience (professional, academic, or transferable):
 
 ---
 
-### 📜 Certifications
+### Certifications
 
 List certifications you’ve earned or are pursuing:
 
