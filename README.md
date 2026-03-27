@@ -122,28 +122,7 @@ Want to stand out? Add:
 * Awards / achievements
 * Interests or fun facts
 
----
 
-## Tech Constraints
-
-### You MUST use:
-
-* HTML
-* CSS
-
-### You MAY use:
-
-* Google Fonts
-* Icons
-* Flexbox
-* CSS Grid
-
-##Do NOT use:
-
-* Bootstrap
-* Tailwind
-* JavaScript
-* AI-generated full solutions
 
 ---
 
