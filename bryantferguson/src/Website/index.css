@@ -9,6 +9,10 @@ section {
     padding: 60px 20px;
 }
 
+h2{
+    text-align: center;
+}
+
 /* ================= NAVBAR ================= */
 .navbar {
     display: flex;
@@ -30,22 +34,107 @@ section {
 }
 
 /* ================= ABOUT ================= */
-.about {}
+.about {
+    
+}
+
+.about p{
+    padding: 10px;;
+}
+
+#about-flex{
+    display: flex;
+    gap: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #222;
+    border-radius: 15px;
+}
 
 /* ================= EXPERIENCE ================= */
-.experience {}
+.experience {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* 2 equal columns */
+  gap: 20px;
+}
+
+.experience h2 {
+    grid-column-start: 1;
+    grid-column-end: -1;
+}
+.job {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 1px solid #222;
+  border-radius: 15px;
+  padding: 15px;
+  width: auto;;
+}
+
+.job-left {
+  min-width: 220px; /* adjust to taste */
+}
+
+.job-left h3 {
+  margin: 0 0 5px 0;
+}
+
+.job-dates {
+  margin: 0;
+}
+
+.job-bullets {
+  margin: 0;
+  padding-left: 20px;
+}
 
 /* ================= EDUCATION ================= */
 .education {}
 
+.education p{
+    text-align: center;
+     margin-top: 0px;
+    margin-bottom: 0px;
+}
+
 /* ================= CERTIFICATIONS ================= */
-.certifications {}
+.certifications {
+    text-align: center;
+}
+
+.certifications ul {
+    list-style-position: inside;  /* keeps bullets visible when centered */
+    padding-left: 0px;
+    margin-left: 0px;;
+}
+
+.certifications ul li {
+    padding-left: 0px;
+    margin-left: 0px;
+}
+
+#bullet-1{
+    margin-left: 25px;;
+}
+
+
 
 /* ================= PROJECTS ================= */
-.projects {}
+.projects {
+     display: grid;
+  grid-template-columns: 1fr 1fr; /* 2 equal columns */
+  gap: 20px;
+}
+
+.projects h2 {
+    grid-column-start: 1;
+    grid-column-end: -1;
+}
 
 .project-card {
-    border: 1px solid #ccc;
+    border: 1px solid #222;
+    border-radius: 15px;
     padding: 15px;
     margin-top: 10px;
 }
@@ -53,8 +142,21 @@ section {
 /* ================= SKILLS ================= */
 .skills {}
 
+.skills p{
+    text-align: center;
+}
+
 /* ================= CONTACT ================= */
 .contact {}
+
+.contact p{
+    text-align: center;
+}
+
+.contact a{
+    color: #222;
+    font-weight: bold;
+}
 
 /* ================= FOOTER ================= */
 footer {
@@ -65,12 +167,12 @@ footer {
 }
 
 #headshot {
-    width: 150px;
-    height: 150px; 
+    width: 250px;
+    height: 250px; 
     object-fit: cover;
-    border-radius: 50%;
+    border-radius: 5%;
 }
 
 .project-card{
-    
+
 }
