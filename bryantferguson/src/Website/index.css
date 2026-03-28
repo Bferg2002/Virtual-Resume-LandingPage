@@ -1,0 +1,76 @@
+/* ================= GLOBAL STYLES ================= */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: lightblue;
+}
+
+section {
+    padding: 60px 20px;
+}
+
+/* ================= NAVBAR ================= */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: #222;
+    color: white;
+}
+
+.navbar a {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+/* ================= HERO ================= */
+.hero {
+    text-align: center;
+}
+
+/* ================= ABOUT ================= */
+.about {}
+
+/* ================= EXPERIENCE ================= */
+.experience {}
+
+/* ================= EDUCATION ================= */
+.education {}
+
+/* ================= CERTIFICATIONS ================= */
+.certifications {}
+
+/* ================= PROJECTS ================= */
+.projects {}
+
+.project-card {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+/* ================= SKILLS ================= */
+.skills {}
+
+/* ================= CONTACT ================= */
+.contact {}
+
+/* ================= FOOTER ================= */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #222;
+    color: white;
+}
+
+#headshot {
+    width: 150px;
+    height: 150px; 
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.project-card{
+    
+}
